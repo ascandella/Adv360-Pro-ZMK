@@ -1,3 +1,21 @@
+macro_ctrl_w_w: macro_ctrl_w_w{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_w_w";
+#binding-cells = <0>;
+bindings = <&sk LCTRL>, <&kp COMMA>, <&kp COMMA>;
+};
+macro_macro_tmux_next: macro_macro_tmux_next{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_tmux_next";
+#binding-cells = <0>;
+bindings = <&sk LCTRL>, <&kp FSLH>, <&kp L>;
+};
+macro_tmux_previous: macro_tmux_previous{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_previous";
+#binding-cells = <0>;
+bindings = <&sk LCTRL>, <&kp FSLH>, <&kp FSLH>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
