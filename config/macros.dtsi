@@ -58,3 +58,27 @@ label = "macro_tmux";
 #binding-cells = <0>;
 bindings = <&sk LCTRL>, <&kp FSLH>;
 };
+macro_shift_alt_a: macro_shift_alt_a{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_alt_a";
+#binding-cells = <0>;
+bindings = <&kp LS(LA(A))>;
+};
+macro_shift_alt_s: macro_shift_alt_s{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_alt_s";
+#binding-cells = <0>;
+bindings = <&kp LS(LA(S))>;
+};
+macro_shift_alt_w: macro_shift_alt_w{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_alt_w";
+#binding-cells = <0>;
+bindings = <&kp LS(LA(W))>;
+};
+macro_shift_alt_d: macro_shift_alt_d{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_alt_d";
+#binding-cells = <0>;
+bindings = <&kp LS(LA(D))>;
+};
