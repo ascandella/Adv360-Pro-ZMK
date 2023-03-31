@@ -86,5 +86,5 @@ macro_tmux_search: macro_tmux_search{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_search";
 #binding-cells = <0>;
-bindings = <&sk LCTRL>, <&kp FSLH>, <&kp MINUS>, <&kp LEFT_BRACKET>;
+bindings = <&sk LCTRL>, <&kp FSLH>, <&kp MINUS>, <&kp LS(LEFT_BRACKET)>;
 };
