@@ -100,3 +100,9 @@ label = "macro_alt_d";
 #binding-cells = <0>;
 bindings = <&kp LA(H)>;
 };
+macro_cmd_alt_i: macro_cmd_alt_i{
+compatible = "zmk,behavior-macro";
+label = "macro_cmd_alt_i";
+#binding-cells = <0>;
+bindings = <&kp LA(LG(G))>;
+};
