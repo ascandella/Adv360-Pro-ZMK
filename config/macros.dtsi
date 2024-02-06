@@ -1,3 +1,9 @@
+macro_macro_ctrl_p_f: macro_macro_ctrl_p_f{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_ctrl_p_f";
+#binding-cells = <0>;
+bindings = <&sk LCTRL>, <&kp FSLH>, <&kp Y>;
+};
 macro_ctrl_w_w: macro_ctrl_w_w{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_w_w";
@@ -106,15 +112,15 @@ label = "macro_cmd_alt_i";
 #binding-cells = <0>;
 bindings = <&kp LA(LG(G))>;
 };
-macro_ctrl_p_e: macro_ctrl_p_e {
+macro_ctrl_p_e: macro_ctrl_p_e{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_p_e";
 #binding-cells = <0>;
-bindings = <&sk LCTRL>, <&kp FSLH>, <&kg D>;
+bindings = <&sk LCTRL>, <&kp FSLH>, <&kp D>;
 };
-macro_ctrl_p_c: macro_ctrl_p_c {
+macro_ctrl_p_c: macro_ctrl_p_c{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_p_c";
 #binding-cells = <0>;
-bindings = <&sk LCTRL>, <&kp FSLH>, <&kg C>;
+bindings = <&sk LCTRL>, <&kp FSLH>, <&kp C>;
 };
