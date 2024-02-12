@@ -110,17 +110,17 @@ macro_ctrl_p_e: macro_ctrl_p_e{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_p_e";
 #binding-cells = <0>;
-bindings = <&kp LC(R)>, <&kp D>;
+bindings = <&kp LC(B)>, <&kp D>;
 };
 macro_ctrl_p_w: macro_ctrl_p_w{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_p_w";
 #binding-cells = <0>;
-bindings = <&kp LC(R)>, <&kp COMMA>;
+bindings = <&kp LC(B)>, <&kp COMMA>;
 };
 macro_macro_ctrl_p_f: macro_macro_ctrl_p_f{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_ctrl_p_f";
 #binding-cells = <0>;
-bindings = <&kp LC(R)>, <&kp Y>;
+bindings = <&kp LC(B)>, <&kp Y>;
 };
