@@ -124,3 +124,9 @@ label = "macro_macro_ctrl_p_f";
 #binding-cells = <0>;
 bindings = <&kp LC(B)>, <&kp Y>;
 };
+macro_macro_ctrl_z_w: macro_macro_ctrl_z_w{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_ctrl_z_w";
+#binding-cells = <0>;
+bindings = <&kp LC(FSLH)>, <&kp COMMA>;
+};
