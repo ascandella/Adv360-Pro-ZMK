@@ -130,3 +130,9 @@ label = "macro_macro_ctrl_z_w";
 #binding-cells = <0>;
 bindings = <&kp LC(FSLH)>, <&kp COMMA>;
 };
+macro_macro_ctrl_z_c: macro_macro_ctrl_z_c{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_ctrl_z_c";
+#binding-cells = <0>;
+bindings = <&kp LC(FSLH)>, <&kp J>;
+};
