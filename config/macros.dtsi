@@ -136,3 +136,9 @@ label = "macro_macro_ctrl_z_c";
 #binding-cells = <0>;
 bindings = <&kp LC(FSLH)>, <&kp I>;
 };
+macro_ctrl_s_e: macro_ctrl_s_e{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_s_e";
+#binding-cells = <0>;
+bindings = <&kp LC(SEMI)>, <&kp D>;
+};
